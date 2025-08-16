@@ -1,1 +1,87 @@
-/*  your css code here. If applicable */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#book {
+  color: blue;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button#submit {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button#submit:hover {
+  background-color: #0056b3;
+}
+
+.table {
+  margin-top: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+.table-striped tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: darkred;
+}
